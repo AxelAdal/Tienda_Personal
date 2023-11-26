@@ -6,7 +6,7 @@ function arriba(){
       <ul>
         <li><a href="#">Inicio</a></li>
         <li><a href="#">Productos</a></li>
-        <li><a href="#" id="contactoEnlace">Contáctanos</a></li>
+        <a href="https://wa.me/50259791443"><img class="wasapp" src="https://raw.githubusercontent.com/AxelAdal/Tienda_Personal/main/img/wasap.png" alt=""></a>
       </ul>
     </nav>
     `;
