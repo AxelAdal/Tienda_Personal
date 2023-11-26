@@ -34,18 +34,10 @@
     cursor: pointer;
 }
 
-.laA {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin-top: 2rem;
-
+@media screen and (max-width: 600px) {
+    .wasap{
+        width: 100%;
+        height: auto;
+    }
 }
 
-img {
-    
-max-width:100%; /* La imagen se ajusta al 100% del ancho del contenedor */
-    
-height: 1000%; /* Mantiene la proporción de aspecto original de la imagen */
-}
