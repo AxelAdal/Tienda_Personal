@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mixco_Shopp</title>
+    <title>Tienda_todo_Mixco</title>
+    <link rel="icon" type="image/jpg" href="/img/icono.jpg">
+    
 
     <!--Links de diseño-->
     <link rel="stylesheet" href="./css/config.css">
     <link rel="stylesheet" href="./css/diseño_enca.css">
+    <link rel="stylesheet" href="./css/contenedores_producto.css">
+    <link rel="stylesheet" href="./css/diseño_contacto.css">
 
     <!--Link de tipo de escritura-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,10 +26,25 @@
     
     <div id="padre" class="Caja Padre"></div>
 
+    <div id="ventanaEmergente" class="ventana-emergente">
+        <div class="contenido-ventana">
+            <span class="cerrar" onclick="cerrarVentanaEmergente()">&times;</span>
+            <h2>Puedes Contactarnos por medio de: </h2>
+            
+            <a href="https://wa.me/50259791442?text=Es un gusto poder atenderte el día de hoy, como podemos ayudarte?"> Click por wasap</a>
+
+            
+        </div>
+    </div>
+    
+
 
 
 
     <!--Links de coneccion de elementos js-->
     <script src="./js/encabezado.js"></script>
+    <script src="./js/contactanos.js"></script>
+    <script src="./js/contactanos_datos.js"></script>
+
 </body>
 </html>
